@@ -1,7 +1,7 @@
 export const intro = {
   title: 'My technical portfolio',
   subtitle:
-    'Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.'
+    'A selection of projects I have created on my own or contributed to.'
 }
 
 export const projects = [
@@ -10,47 +10,51 @@ export const projects = [
     description:
       'Ut enim ad minim veniam, quis nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     collaborators: [
-      { name: 'Lorem I', repo: 'link here' },
-      { name: 'Ipsum L', repo: 'link here' }
+      {
+        name: 'Contributors',
+        repourl: 'https://github.com/kits-ab/LogLady/graphs/contributors'
+      }
     ],
     images: ['ps'],
-    url: 'https://github.com'
+    technologies: [
+      'JavaScript',
+      'React.js',
+      'Node.js',
+      'Electron.js',
+      'Redux',
+      'react-redux',
+      'Travis CI',
+      'Jest'
+    ],
+    url: 'https://github.com/kits-ab/LogLady'
   },
   {
     name: 'Poetry Slack',
     description:
       'Ut enim ad minim veniam, quis nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     collaborators: [
-      { name: 'Lorem I', repourl: 'link here' },
-      { name: 'Ipsum L', repourl: 'link here' }
+      { name: 'Satomi', repourl: 'https://github.com/satoskit' },
+      { name: 'Mikel', repourl: 'https://github.com/wasse' }
     ],
     images: ['ps', 'ps'],
-    url: 'https://github.com'
+    technologies: [],
+    url: 'https://github.com/wasse/slack-poem'
   },
   {
-    name: 'Habit tracker',
+    name: 'habit_tracker',
     description:
       'Ut enim ad minim veniam, quis nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     collaborators: [
-      { name: 'Lorem I', repo: 'link here' },
-      { name: 'Ipsum L', repo: 'link here' }
+      { name: 'Johan', repourl: 'https://gitlab.com/JohanCederschiold' },
+      { name: 'Jens', repourl: 'https://gitlab.com/JensKnutson' }
     ],
     images: ['ps'],
-    url: 'https://github.com'
+    technologies: [],
+    url: 'https://gitlab.com/JohanCederschiold/habit_tracker'
   },
+
   {
-    name: 'DND relay writer',
-    description:
-      'Ut enim ad minim veniam, quis nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    collaborators: [
-      { name: 'Lorem I', repo: 'link here' },
-      { name: 'Ipsum L', repo: 'link here' }
-    ],
-    images: ['ps'],
-    url: 'https://github.com'
-  },
-  {
-    name: 'Lorem ipsum 5',
+    name: 'coffeeshop-inventory-app',
     description:
       'Ut enim ad minim veniam, quis nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     collaborators: [
@@ -58,20 +62,43 @@ export const projects = [
       { name: 'Ipsum L', repourl: 'link here' }
     ],
     images: ['ps', 'ps'],
+    technologies: [],
     url: 'https://github.com'
   },
   {
-    name: 'Lorem ipsum 4',
+    name: 'poetry-generator',
     description:
       'Ut enim ad minim veniam, quis nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    collaborators: [
-      { name: 'Lorem I', repo: 'link here' },
-      { name: 'Ipsum L', repo: 'link here' }
-    ],
+    collaborators: [],
     images: ['ps'],
+    technologies: [],
     url: 'https://github.com'
   }
 ]
+
+// {
+//   name: 'Lorem ipsum 4',
+//   description:
+//     'Ut enim ad minim veniam, quis nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+//   collaborators: [
+//     { name: 'Lorem I', repo: 'link here' },
+//     { name: 'Ipsum L', repo: 'link here' }
+//   ],
+//   images: ['ps'],
+//   url: 'https://github.com'
+// }
+
+// {
+//   name: 'DND relay writer',
+//     description:
+//   'Ut enim ad minim veniam, quis nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+//     collaborators: [
+//       { name: 'Lorem I', repo: 'link here' },
+//       { name: 'Ipsum L', repo: 'link here' }
+//     ],
+//       images: ['ps'],
+//         url: 'https://github.com'
+// },
 
 // https://github.com/wasse/slack-poem
 // https://github.com/satoskit
@@ -83,6 +110,7 @@ export const projects = [
 
 // https://github.com/MelindaSW/coffeeshop-inventory-app
 // https://github.com/MelindaSW/relay-writer
+
 // https://github.com/wasse/slack-poem
 // https://github.com/kits-ab/LogLady
 // https://gitlab.com/JohanCederschiold/habit_tracker
