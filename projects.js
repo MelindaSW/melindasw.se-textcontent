@@ -1,14 +1,14 @@
 export const intro = {
-  title: 'My technical portfolio',
-  subtitle:
-    'A collection of both my own projects and others I have contributed to.'
+  title: 'Technical portfolio',
+  subtitle: ''
+  // 'This is a collection of personal side projects and others I have contributed to.'
 }
 
 export const projects = [
   {
     name: 'LogLady',
     description:
-      'During the spring of 2020 I did an internship course at Kits AB and got the chance to join a team working on this project. LogLady is an open source desktop application for reading log files. The major feature we developed consisted of adapting the api and the view to make the application work with larger log files without making the program slow down or using too much CPU. Other than that the sprints consisted of solving bugs and making improvements to existing features.',
+      'From February to May 2020 I worked on this project during my internship at Kits AB. LogLady is an open source desktop application for reading log files. I mainly took part in the process of adapting the api and view to make the application work with larger log files without making the program slow down or using too much CPU. Other tasks consisted of bug fixes and other improvements in the view layer.',
     collaborators: [
       {
         name: 'Contributors',
@@ -45,14 +45,16 @@ export const projects = [
       'REST',
       'Maven',
       'Swagger',
-      'Postgresql'
+      'Postgresql',
+      'Bulma',
+      'Sass'
     ],
     url: 'https://github.com/wasse/slack-poem'
   },
   {
     name: 'habit_tracker',
     description:
-      'A group project for the the server programming course at YRGO.The API creates, updates, reads and deletes users and the habits connected to the user.A user can create habits and activities for the habits.',
+      'This was the second group project for the server programming course at YRGO. Habit tracker is an API that creates, updates, reads and deletes users and the habits connected to the user. A user can create habits and activities connected to the habits. The assignments were meant for us to become further accustomed with the Spring Boot framework, database persistence with Hibernate, unit tests and logging. ',
     collaborators: [
       { name: 'Johan', repourl: 'https://gitlab.com/JohanCederschiold' },
       { name: 'Jens', repourl: 'https://gitlab.com/JensKnutson' }
@@ -74,10 +76,13 @@ export const projects = [
   {
     name: 'coffeeshop-inventory-app',
     description:
-      'Ut enim ad minim veniam, quis nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'UThis was our first group project for the server programming course at YRGO. The task consisted of creating a backend with Java EE running on a Wildfly web server. It had to have CRUD operations and persist the data with JPA or Hibernate. The presentation layer was voluntary. We cretated an inventory tool for an imaginary coffee shop where you can add, remove, search and update different kinds of coffee.',
     collaborators: [
       { name: 'Adam', repourl: 'https://gitlab.com/Hambe' },
-      { name: 'Sebastian', repourl: 'https://github.com/blueberryFields' }
+      {
+        name: 'Sebastian',
+        repourl: 'https://github.com/blueberryFields'
+      }
     ],
     images: ['cbt', 'cbt2'],
     technologies: [
@@ -89,6 +94,7 @@ export const projects = [
       'Vue.js',
       'CSS',
       'HTML',
+      'Bulma',
       'Postgresql',
       'Docker',
       'Maven'
@@ -98,7 +104,7 @@ export const projects = [
   {
     name: 'poetry-generator-api',
     description:
-      'Ut enim ad minim veniam, quis nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'This API is a personal side project. One endpoint returns a Haiku based on the request body’s text property. The syllable counting works pretty well with both english and swedish. Though the algorithm will probably be improved in the future. An acrostic poetry feature is in progress when writing this. Below are a couple of Haiku’s generated from the first pages of pride and prejudice.',
     collaborators: [],
     images: ['pg1', 'pg2'],
     technologies: ['Java EE', 'Spring Boot', 'REST', 'Swagger', 'JUnit'],
