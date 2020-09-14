@@ -1,8 +1,20 @@
 export const intro = {
   title: 'Technical portfolio',
-  subtitle: ''
-  // 'This is a collection of personal side projects and others I have contributed to.'
+  subtitle: 'A collection of both personal and co-created projects.'
 }
+
+// Project template
+// {
+//   name: 'Lorem ipsum 4',
+//   description:
+//     'Ut enim ad minim veniam, quis nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+//   collaborators: [
+//     { name: 'Lorem I', repo: 'link here' },
+//     { name: 'Ipsum L', repo: 'link here' }
+//   ],
+//   images: ['ps'],
+//   url: 'https://github.com'
+// }
 
 export const projects = [
   {
@@ -22,7 +34,6 @@ export const projects = [
       'Node.js',
       'Electron.js',
       'Redux',
-      'react-redux',
       'Travis CI',
       'Jest'
     ],
@@ -31,7 +42,7 @@ export const projects = [
   {
     name: 'Poetry Slack',
     description:
-      'This web applicaion was a school group project for the project and entreprenourship course at YRGO.It is connecting to Slacks API and to the applications backend. Based on the content of the selected channel conversation it generates different kinds of poetry. I developed the front and backend in the haiku feature, configured the backend and collaborated on the authorization solution.',
+      'This web applicaion was a school group project for the project and entreprenourship course at YRGO. It is using Slacks API and the applications own backend. Based on the content of the selected channel conversation it generates different kinds of poetry and the user can then choose to post it in the desired channel. I created the front and backend in the haiku feature, configured the backend and collaborated on the authorization solution.',
     collaborators: [
       { name: 'Satomi', repourl: 'https://github.com/satoskit' },
       { name: 'Mikel', repourl: 'https://github.com/wasse' }
@@ -46,6 +57,7 @@ export const projects = [
       'Maven',
       'Swagger',
       'Postgresql',
+      'Mobx',
       'Bulma',
       'Sass'
     ],
@@ -54,7 +66,7 @@ export const projects = [
   {
     name: 'habit_tracker',
     description:
-      'This was the second group project for the server programming course at YRGO. Habit tracker is an API that creates, updates, reads and deletes users and the habits connected to the user. A user can create habits and activities connected to the habits. The assignments were meant for us to become further accustomed with the Spring Boot framework, database persistence with Hibernate, unit tests and logging. ',
+      'This was the second group project for the server programming course at YRGO. Habit tracker is an API that creates, updates, reads and deletes users and the habits connected to the user. A user can create habits and activities connected to the habits. The assignments were meant for us to become further accustomed with the Spring Boot framework, database persistence with Hibernate, unit tests and logging.',
     collaborators: [
       { name: 'Johan', repourl: 'https://gitlab.com/JohanCederschiold' },
       { name: 'Jens', repourl: 'https://gitlab.com/JensKnutson' }
@@ -76,7 +88,7 @@ export const projects = [
   {
     name: 'coffeeshop-inventory-app',
     description:
-      'UThis was our first group project for the server programming course at YRGO. The task consisted of creating a backend with Java EE running on a Wildfly web server. It had to have CRUD operations and persist the data with JPA or Hibernate. The presentation layer was voluntary. We cretated an inventory tool for an imaginary coffee shop where you can add, remove, search and update different kinds of coffee.',
+      'This was our first group project for the server programming course at YRGO. The task consisted of creating a backend with Java EE running on a Wildfly web server. It had to have CRUD operations and persist the data with JPA or Hibernate. The presentation layer was voluntary. We cretated an inventory tool for an imaginary coffee shop where you can add, remove, search and update different kinds of coffee.',
     collaborators: [
       { name: 'Adam', repourl: 'https://gitlab.com/Hambe' },
       {
@@ -111,42 +123,3 @@ export const projects = [
     url: 'https://github.com/MelindaSW/msw-poetry-generator-api'
   }
 ]
-
-// {
-//   name: 'Lorem ipsum 4',
-//   description:
-//     'Ut enim ad minim veniam, quis nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-//   collaborators: [
-//     { name: 'Lorem I', repo: 'link here' },
-//     { name: 'Ipsum L', repo: 'link here' }
-//   ],
-//   images: ['ps'],
-//   url: 'https://github.com'
-// }
-
-// {
-//   name: 'DND relay writer',
-//     description:
-//   'Ut enim ad minim veniam, quis nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-//     collaborators: [
-//       { name: 'Lorem I', repo: 'link here' },
-//       { name: 'Ipsum L', repo: 'link here' }
-//     ],
-//       images: ['ps'],
-//         url: 'https://github.com'
-// },
-
-// https://github.com/wasse/slack-poem
-// https://github.com/satoskit
-// https://github.com/wasse
-
-// https://gitlab.com/JohanCederschiold/habit_tracker
-// https://gitlab.com/JensKnutson
-// https://gitlab.com/JohanCederschiold
-
-// https://github.com/MelindaSW/coffeeshop-inventory-app
-// https://github.com/MelindaSW/relay-writer
-
-// https://github.com/wasse/slack-poem
-// https://github.com/kits-ab/LogLady
-// https://gitlab.com/JohanCederschiold/habit_tracker
