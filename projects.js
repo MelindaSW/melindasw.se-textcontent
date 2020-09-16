@@ -20,7 +20,7 @@ export const projects = [
   {
     name: 'LogLady',
     description:
-      'From February to May 2020 I worked on this project during my internship at Kits AB. LogLady is an open source desktop application for reading log files. I mainly took part in the process of adapting the api and view to make the application work with larger log files without making the program slow down or using too much CPU. Other tasks consisted of bug fixes and other improvements in the view layer.',
+      'From February to May 2020 I worked on this project during an internship course for school at a company called Kits. LogLady is an open source desktop application for reading log files. I mainly took part in the process of adapting the api and view to make the application work with larger log files without making the program slow down or using too much CPU. Other tasks consisted of bug fixes and other improvements in the view layer.',
     collaborators: [
       {
         name: 'Contributors',
